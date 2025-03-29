@@ -35,12 +35,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<h4>Creating VMs in the same Virtual Network/Subnet</h4>
+<h4>First, I created VMs in the same Virtual Network/Subnet</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/1%20resource%20group.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/2%20windows%20vm.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/3%20linux%20vm.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/4%20vm%20environment.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This first step involved creating my virtual environment and organizing everything into the correct resource group and network so that communication could run efficiently for this lab. This set the tone for the rest of my project.
 </p>
 <br />
 

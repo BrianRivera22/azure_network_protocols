@@ -43,7 +43,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/4%20vm%20environment.png"/>
 </p>
 <p>
-This first step involved creating my virtual environment and organizing everything into the correct resource group and network so that communication could run efficiently for this lab. This set the tone for the rest of my project.
+Observation: This first step involved creating my virtual environment and organizing everything into the correct resource group and network so that communication could run efficiently for this lab. This set the tone for the rest of my project.
 </p>
 <br />
 

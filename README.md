@@ -49,10 +49,13 @@ Observation: This first step involved creating my virtual environment and organi
 
 <h4>Observing ICMP traffic</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/1.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/2.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/3.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/4.png"/> 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observation: Wireshark helped me understand and recognize IP packets and information about network conditions, like when a service is unavailable or when a host can't be reached. The ICMP traffic filter was useful to pinpoint the traffic when I used the ping command. The “ipconfig /all” command helped verify that the IP Address and MAC Address were correct.
 </p>
 <br />
 

@@ -61,7 +61,10 @@ Observation: Wireshark helped me understand and recognize IP packets and informa
 
 <h4>Configuring firewall (Network Security Group)</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/1.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/2.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/3.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/4.png"/> 
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

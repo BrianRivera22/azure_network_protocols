@@ -67,7 +67,7 @@ Observation: Wireshark helped me understand and recognize IP packets and informa
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/4.png"/> 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observation: firewall was effective. 
 </p>
 <br />
 
@@ -77,33 +77,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20SSH%20Traffic/2.png"/> 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observation: I typed 'exit' and then hit enter to exit the SSH connection.
 </p>
 <br />
 
 <h4>Observing DHCP traffic</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/DHCP.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observation: Not much traffic here. It was difficult to observe this traffic within a virtual environment. When I used the command 'ipconfig /release' the connection to the windows-vm was lost.
 </p>
 <br />
 
 <h4>Observing DNS traffic</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/DNS.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observation: There was a lot of DNS traffic and a lot of activity was shown even with the filters when I did a nslookup on the commandline
 </p>
 <br />
 
 <h4>Observing RDP traffic</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/RDP.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observation: The RDP traffic using tcp.port == 3389 was non-stop spamming because the RDP protocol is constantly showing a live stream from one computer to another and traffic is always being transmitted.
 </p>
 <br />

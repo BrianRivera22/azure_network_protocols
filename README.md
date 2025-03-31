@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<h4>First, I created VMs in the same Virtual Network/Subnet</h4>
+<h3>Creating VMs in the same Virtual Network/Subnet</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/1%20resource%20group.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/2%20windows%20vm.png"/>
@@ -43,11 +43,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/4%20vm%20environment.png"/>
 </p>
 <p>
-Observation: This first step involved creating my virtual environment and organizing everything into the correct resource group and network so that communication could run efficiently for this lab. This set the tone for the rest of my project.
+<b>Observation</b>: This first step involved creating my virtual environment and organizing everything into the correct resource group and network so that communication could run efficiently for this lab. This set the tone for the rest of my project.
 </p>
 <br />
 
-<h4>Observing ICMP traffic</h4>
+<h3>Observing ICMP traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/1.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/2.png"/>
@@ -55,11 +55,11 @@ Observation: This first step involved creating my virtual environment and organi
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/4.png"/> 
 </p>
 <p>
-Observation: Wireshark helped me understand and recognize IP packets and information about network conditions, like when a service is unavailable or when a host can't be reached. The ICMP traffic filter was useful to pinpoint the traffic when I used the ping command. The “ipconfig /all” command helped verify that the IP Address and MAC Address were correct.
+<b>Observation</b>: Wireshark helped me understand and recognize IP packets and information about network conditions, like when a service is unavailable or when a host can't be reached. The ICMP traffic filter was useful to pinpoint the traffic when I used the ping command. The “ipconfig /all” command helped verify that the IP Address and MAC Address were correct.
 </p>
 <br />
 
-<h4>Configuring firewall (Network Security Group)</h4>
+<h3>Configuring firewall (Network Security Group)</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/1.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/2.png"/>
@@ -67,43 +67,43 @@ Observation: Wireshark helped me understand and recognize IP packets and informa
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/4.png"/> 
 </p>
 <p>
-Observation: firewall was effective. 
+<b>Observation</b>: firewall was effective. 
 </p>
 <br />
 
-<h4>Observing SSH traffic</h4>
+<h3>Observing SSH traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20SSH%20Traffic/1.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20SSH%20Traffic/2.png"/> 
 </p>
 <p>
-Observation: I typed 'exit' and then hit enter to exit the SSH connection.
+<b>Observation</b>: I typed 'exit' and then hit enter to exit the SSH connection.
 </p>
 <br />
 
-<h4>Observing DHCP traffic</h4>
+<h3>Observing DHCP traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/DHCP.png"/>
 </p>
 <p>
-Observation: Not much traffic here. It was difficult to observe this traffic within a virtual environment. When I used the command 'ipconfig /release' the connection to the windows-vm was lost.
+<b>Observation</b>: Not much traffic here. It was difficult to observe this traffic within a virtual environment. When I used the command 'ipconfig /release' the connection to the windows-vm was lost.
 </p>
 <br />
 
-<h4>Observing DNS traffic</h4>
+<h3>Observing DNS traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/DNS.png"/>
 </p>
 <p>
-Observation: There was a lot of DNS traffic and a lot of activity was shown even with the filters when I did a nslookup on the commandline
+<b>Observation</b>: There was a lot of DNS traffic and a lot of activity was shown even with the filters when I did a nslookup on the commandline
 </p>
 <br />
 
-<h4>Observing RDP traffic</h4>
+<h3>Observing RDP traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/RDP.png"/>
 </p>
 <p>
-Observation: The RDP traffic using tcp.port == 3389 was non-stop spamming because the RDP protocol is constantly showing a live stream from one computer to another and traffic is always being transmitted.
+<b>Observation</b>: The RDP traffic using tcp.port == 3389 was non-stop spamming because the RDP protocol is constantly showing a live stream from one computer to another and traffic is always being transmitted.
 </p>
 <br />

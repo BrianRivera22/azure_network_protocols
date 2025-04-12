@@ -37,10 +37,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Creating VMs in the same Virtual Network/Subnet</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/1%20resource%20group.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/2%20windows%20vm.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/3%20linux%20vm.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Lab%201%20step%201/4%20vm%20environment.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/1.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/2.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/3.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/4.png"/>
 </p>
 <p>
 <b>Observation</b>: This first step involved creating my virtual environment and organizing everything into the correct resource group and network so that communication could run efficiently for this lab. This set the tone for the rest of my project.
@@ -49,10 +49,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Observing ICMP traffic</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/1.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/2.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/3.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20ICMP%20Traffic/4.png"/> 
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/5.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/6.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/7.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/8.png"/> 
 </p>
 <p>
 <b>Observation</b>: Wireshark helped me understand and recognize IP packets and information about network conditions, like when a service is unavailable or when a host can't be reached. The ICMP traffic filter was useful to pinpoint the traffic when I used the ping command. The “ipconfig /all” command helped verify that the IP Address and MAC Address were correct.
@@ -61,10 +61,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Configuring firewall (Network Security Group)</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/1.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/2.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/3.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Configuring%20a%20firewall%20%5BNetwork%20Security%20Group%5D/4.png"/> 
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/9.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/10.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/11.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/12.png"/> 
 </p>
 <p>
 <b>Observation</b>: firewall was effective. 
@@ -73,8 +73,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Observing SSH traffic</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20SSH%20Traffic/1.png"/>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Observe%20SSH%20Traffic/2.png"/> 
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/13.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/14.png"/> 
 </p>
 <p>
 <b>Observation</b>: I typed 'exit' and then hit enter to exit the SSH connection.
@@ -83,7 +83,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Observing DHCP traffic</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/DHCP.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/15.png"/>
 </p>
 <p>
 <b>Observation</b>: Not much traffic here. It was difficult to observe this traffic within a virtual environment. When I used the command 'ipconfig /release' the connection to the windows-vm was lost.
@@ -92,7 +92,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Observing DNS traffic</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/DNS.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/16.png"/>
 </p>
 <p>
 <b>Observation</b>: There was a lot of DNS traffic and a lot of activity was shown even with the filters when I did a nslookup on the commandline
@@ -101,7 +101,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Observing RDP traffic</h3>
 <p>
-<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/RDP.png"/>
+<img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/17.png"/>
 </p>
 <p>
 <b>Observation</b>: The RDP traffic using tcp.port == 3389 was non-stop spamming because the RDP protocol is constantly showing a live stream from one computer to another and traffic is always being transmitted.

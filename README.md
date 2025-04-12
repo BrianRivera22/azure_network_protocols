@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<h3>Creating VMs in the same Virtual Network/Subnet</h3>
+<h3>1. Creating VMs in the same Virtual Network/Subnet</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/1.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/2.png"/>
@@ -47,7 +47,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Observing ICMP traffic</h3>
+<h3>2. Observing ICMP traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/5.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/6.png"/>
@@ -59,7 +59,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Configuring firewall (Network Security Group)</h3>
+<h3>3. Configuring firewall (Network Security Group)</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/9.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/10.png"/>
@@ -71,7 +71,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Observing SSH traffic</h3>
+<h3>4. Observing SSH traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/13.png"/>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/14.png"/> 
@@ -81,7 +81,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Observing DHCP traffic</h3>
+<h3>5. Observing DHCP traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/15.png"/>
 </p>
@@ -90,7 +90,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Observing DNS traffic</h3>
+<h3>6. Observing DNS traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/16.png"/>
 </p>
@@ -99,7 +99,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Observing RDP traffic</h3>
+<h3>7. Observing RDP traffic</h3>
 <p>
 <img src="https://github.com/BrianRivera22/azure_network_protocols/blob/main/Azure%20Network%20Protocols/17.png"/>
 </p>
